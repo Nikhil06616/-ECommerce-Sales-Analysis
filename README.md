@@ -1,166 +1,138 @@
-E-Commerce Sales & Customer Behavior Analysis – MySQL + Power BI
-About
+🛒 E-Commerce Sales & Customer Behavior Analysis Dashboard
+📌 Project Overview
 
-This project focuses on analyzing e-commerce sales and customer behavior using MySQL for data analysis and Power BI for interactive dashboard visualization. The dataset was obtained from Kaggle and includes customer purchases, product categories, discounts, revenue, customer demographics, and city-wise sales performance.
+E-Commerce Sales & Customer Behavior Analysis Dashboard is an interactive Power BI dashboard designed to analyze sales performance, customer purchasing behavior, product category trends, and revenue insights for an e-commerce business.
 
-The objective of this project is to extract meaningful business insights that help understand:
+The project uses MySQL for data analysis and Power BI for visualization to provide meaningful business insights that support strategic decision-making.
 
-Customer purchasing behavior
-Product category performance
-Revenue trends over time
-Discount impact on sales
-Customer demographics and retention
+🎯 Purpose
 
-The project combines SQL-based data analysis with a professional Power BI dashboard to support data-driven business decisions.
+This dashboard provides a complete overview of:
 
-Project Objectives
-
-The primary goal of this project is to analyze e-commerce transactions and derive insights related to:
-
-Sales Performance
-Customer Behavior
-Product Category Analysis
-Revenue Growth Trends
-Discount Impact on Orders
-Customer Retention
-
-These insights help businesses improve marketing strategies, customer engagement, and operational efficiency.
-
-Tools & Technologies Used
-MySQL – Data cleaning and analysis
-Power BI – Dashboard creation and visualization
-Excel / CSV – Dataset format
-Kaggle Dataset – Source of data
-Dataset Overview
-
-The dataset contains e-commerce sales and customer transaction details.
-
-Dataset Information
-Source: Kaggle – E-commerce Customer Behavior Dataset
-Format: CSV
-Database: MySQL
-Visualization Tool: Power BI
-Key Columns Included
-Customer ID
-Customer Gender
-Customer Age Group
-Product Category
-Order Date
-Revenue
-Discount Applied
-Order Value
-City
-Customer Type (New / Returning)
-Total Orders
-Project Workflow
-1. Data Import
-
-Imported the CSV dataset into MySQL database for analysis.
-
-2. Data Cleaning
-Removed null values
-Corrected inconsistent data
-Standardized column names
-Checked duplicate records
-3. Data Transformation
-Converted columns into appropriate data types
-Created calculated fields for analysis
-Prepared data for Power BI dashboarding
-4. SQL Analysis
-
-Performed multiple business queries to analyze:
-
-Revenue trends
-Customer segmentation
-Product category performance
-City-wise sales
-Customer retention
-Discount impact
-5. Dashboard Creation
-
-Created an interactive Power BI dashboard showing:
-
-KPIs
+Sales performance
+Customer behavior
 Revenue trends
 Product category analysis
+Customer retention
+Discount impact on orders
+
+The goal is to help businesses understand customer patterns, optimize sales strategies, and improve overall business performance.
+
+🛠️ Tech Stack
+📊 Power BI Desktop – Dashboard creation and visualization
+🗄️ MySQL – Data analysis and querying
+📂 Power Query – Data cleaning and transformation
+🧠 DAX (Data Analysis Expressions) – Measures and calculations
+📝 Data Modeling – Relationship management and structured analysis
+📁 File Formats – .pbix, .sql, .csv, .png
+📂 Data Source
+
+Source: Kaggle – E-Commerce Customer Behavior Dataset
+
+Dataset Includes:
+Customer details
+Product categories
+Revenue and order values
+Discount information
 Customer demographics
-Discount impact
-Top cities by revenue
-Dashboard Features
-KPI Cards
-Total Revenue → 4.92M
-Total Orders → 5K
-Total Customers → 5K
-Average Order Value → 983.11
-Discount Orders → 2K
-Charts & Insights
-Revenue Trend Over Time
-Sales by Product Category
-Customers by Gender
-Customers by Age Group
-New vs Returning Customers
-Discount Impact on AOV
-Top Cities by Revenue
-Key Business Questions Solved Using SQL
-What is the total revenue generated?
-What is the monthly revenue trend?
-Which product category generates the highest sales?
-Which cities contribute the most revenue?
-What is the average order value?
-How many customers are new vs returning?
-Which gender contributes more to sales?
-Which age group has the highest number of customers?
+City-wise sales data
+Order and transaction details
+✨ Features & Highlights
+🔍 Business Problem
+
+E-commerce businesses generate large amounts of transactional data, making it difficult to answer important business questions such as:
+
+Which product category generates the highest revenue?
+Which customer age group contributes the most sales?
 How do discounts impact average order value?
-Which months have the highest and lowest revenue?
+Which cities generate maximum revenue?
 What percentage of customers are returning customers?
-Which product categories perform poorly?
-Which city generates maximum revenue?
-How many orders contain discounts?
-What is the customer distribution by demographics?
-Key Insights from the Analysis
-Revenue Insights
-Total revenue reached 4.92M
-Revenue fluctuated across different months
-February and March generated strong sales performance
-Product Category Insights
+🎯 Goal of the Dashboard
+Track overall revenue and sales performance
+Analyze customer demographics and purchasing behavior
+Identify top-performing product categories
+Compare new vs returning customers
+Understand the impact of discounts on orders
+Support data-driven business decisions
+📊 Dashboard Insights
+🔢 Key KPIs
+Total Revenue: 4.92M
+Total Orders: 5K
+Total Customers: 5K
+Average Order Value: 983.11
+Discount Orders: 2K
+📈 Revenue Trend Analysis
+Monthly revenue trends are visualized to identify business growth patterns
+February and March showed strong revenue performance
+Revenue fluctuations help identify seasonal trends
+🛍️ Product Category Analysis
 Electronics is the highest revenue-generating category
-Fashion and Toys contribute comparatively lower revenue
-Customer Insights
+Home & Garden and Sports categories also contribute significantly
+Fashion and Toys generate comparatively lower revenue
+👥 Customer Insights
 Returning customers contribute around 60% of total revenue
 The 26–35 age group is the largest customer segment
 Female and male customer contributions are nearly equal
-Discount Analysis
-Orders with discounts slightly reduce the average order value
-Discount campaigns influence customer purchasing behavior
-Regional Insights
-Istanbul generated the highest city-wise revenue
-Ankara and Izmir also contributed significantly to sales
-Conclusion
+💸 Discount Impact Analysis
+Discounted orders slightly reduce the average order value
+Helps evaluate effectiveness of promotional campaigns
+Useful for pricing and marketing strategies
+🌍 City-Wise Revenue Analysis
+
+Top-performing cities by revenue include:
+
+Istanbul
+Ankara
+Izmir
+Bursa
+
+These insights help identify high-performing business locations.
+
+📦 Dashboard Features
+
+The dashboard includes:
+
+KPI Cards
+Revenue Trend Line Chart
+Product Category Bar Chart
+Gender Distribution Donut Chart
+Customer Age Group Analysis
+New vs Returning Customers Analysis
+Discount Impact Visualization
+Top Cities by Revenue
+💡 Business Impact
+📈 Improve sales performance tracking
+🎯 Enable better customer targeting
+🛍️ Identify top-performing product categories
+🌍 Support region and city-level business decisions
+💰 Optimize discount and pricing strategies
+👥 Improve customer retention strategies
+🖼️ Dashboard Preview
+
+The dashboard provides an interactive and visually appealing interface for analyzing:
+
+Revenue trends
+Customer behavior
+Product performance
+City-wise sales insights
+Business KPIs
+✅ Conclusion
 
 This project demonstrates how MySQL and Power BI can be combined to analyze e-commerce sales data and generate actionable business insights.
 
-The analysis helped identify:
+The dashboard helps businesses:
 
-Top-performing product categories
-Revenue-driving cities
-Customer purchasing behavior
-Retention patterns
-Impact of discounts on sales
+Monitor sales growth
+Understand customer behavior
+Improve decision-making
+Optimize product and marketing strategies
 
-These insights can support:
+It showcases practical skills in:
 
-Better marketing decisions
-Improved customer targeting
-Inventory optimization
-Revenue growth strategies
-Future Improvements
-Add predictive sales forecasting
-Implement customer lifetime value analysis
-Create advanced DAX measures
-Add profit margin analysis
-Build real-time dashboard integration
-Support This Project ⭐
+SQL analysis
+Data cleaning
+Dashboard design
+Business intelligence and visualization
+⭐ Support This Project
 
 If you found this project useful, consider giving it a Star ⭐ on GitHub.
-
-Your support motivates further development and new projects.
