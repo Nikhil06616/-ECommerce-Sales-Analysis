@@ -12,7 +12,7 @@ This project explores an e-commerce sales dataset to uncover trends in revenue, 
 
 ## 📊 Dashboard Preview
 
-![E-Commerce Sales & Customer Behavior Dashboard](C:\Users\Nikhil\OneDrive\Pictures)
+![E-Commerce Sales & Customer Behavior Dashboard](https://github.com/Nikhil06616/-ECommerce-Sales-Analysis/blob/main/E-Commerce%20sales%20Dashboard.png)
 
 ---
 
