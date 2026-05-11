@@ -1,139 +1,125 @@
-#🛒 E-Commerce Sales & Customer Behavior Analysis Dashboard
+# 🛒 E-Commerce Sales & Customer Behavior Analysis
 
-#📌 Project Overview
-E-Commerce Sales & Customer Behavior Analysis Dashboard is an interactive Power BI dashboard designed to analyze sales performance, customer purchasing behavior, product category trends, and revenue insights for an e-commerce business.
+> Analyzing sales performance and understanding customer behavior using a real-world e-commerce dataset sourced from Kaggle.
 
-The project uses MySQL for data analysis and Power BI for visualization to provide meaningful business insights that support strategic decision-making.
+---
 
-#🎯 Purpose
+## 📌 Project Overview
 
-This dashboard provides a complete overview of:
-Sales performance
-Customer behavior
-Revenue trends
-Product category analysis
-Customer retention
-Discount impact on orders
+This project explores an e-commerce sales dataset to uncover trends in revenue, customer behavior, product performance, and discount impact. The goal is to transform raw transactional data into actionable business insights through structured SQL analysis and visual dashboards.
 
-The goal is to help businesses understand customer patterns, optimize sales strategies, and improve overall business performance.
+---
 
-#🛠️ Tech Stack
- 📊 Power BI Desktop – Dashboard creation and visualization
- 🗄️ MySQL – Data analysis and querying
- 📂 Power Query – Data cleaning and transformation
- 🧠 DAX (Data Analysis Expressions) – Measures and calculations
- 📝 Data Modeling – Relationship management and structured analysis 
- 📁 File Formats – .pbix, .sql, .csv, .png
- 📂 Data Source
+## 📊 Dashboard Preview
 
-#Source: Kaggle – E-Commerce Customer Behavior Dataset
-#Dataset Includes:
- Customer details
- Product categories
- Revenue and order values
- Discount information
- Customer demographics
- City-wise sales data
- Order and transaction details
+![E-Commerce Sales & Customer Behavior Dashboard](E-Commerce_sales_Dashboard.png)
 
-#✨ Features & Highlights
+---
 
-#🔍 Business Problem
-  E-commerce businesses generate large amounts of transactional data, making it difficult to answer important business questions such as:
+## 📁 Dataset
 
- Which product category generates the highest revenue?
- Which customer age group contributes the most sales?
- How do discounts impact average order value?
- Which cities generate maximum revenue?
- What percentage of customers are returning customers?
- 
-#🎯 Goal of the Dashboard
- Track overall revenue and sales performance
- Analyze customer demographics and purchasing behavior
- Identify top-performing product categories
- Compare new vs returning customers
- Understand the impact of discounts on orders
- Support data-driven business decisions
+- **Source:** [Kaggle](https://www.kaggle.com/)
+- **File:** `ecommerce_customer_behavior_dataset.csv`
+- **Records:** ~5,000 orders
+- **Key Columns:** `customer_id`, `age`, `gender`, `city`, `product_category`, `quantity`, `total_amount`, `discount_amount`, `payment_method`, `device_type`, `customer_rating`, `date`
 
-#📊 Dashboard Insights
+---
 
-#🔢 Key KPIs
- Total Revenue: 4.92M
- Total Orders: 5K
- Total Customers: 5K
- Average Order Value: 983.11
- Discount Orders: 2K
+## 🧰 Tools Used
 
-#📈 Revenue Trend Analysis
- Monthly revenue trends are visualized to identify business growth patterns
- February and March showed strong revenue performance
- Revenue fluctuations help identify seasonal trends
+| Tool | Purpose |
+|------|---------|
+| MySQL | Data storage & SQL analysis |
+| Power BI / Excel | Dashboard & visualizations |
+| Kaggle | Dataset source |
 
-#🛍️ Product Category Analysis
- Electronics is the highest revenue-generating category
- Home & Garden and Sports categories also contribute significantly
- Fashion and Toys generate comparatively lower revenue
+---
 
-#👥 Customer Insights
- Returning customers contribute around 60% of total revenue
- The 26–35 age group is the largest customer segment
- Female and male customer contributions are nearly equal
+## 📈 Key Metrics
 
-#💸 Discount Impact Analysis
- Discounted orders slightly reduce the average order value
- Helps evaluate effectiveness of promotional campaigns
- Useful for pricing and marketing strategies
+| Metric | Value |
+|--------|-------|
+| 💰 Total Revenue | **₺4.92M** |
+| 📦 Total Orders | **5K** |
+| 👥 Total Customers | **5K** |
+| 🧾 Average Order Value | **983.11** |
+| 🏷️ Discount Orders | **2K** |
 
-#🌍 City-Wise Revenue Analysis
- Top-performing cities by revenue include:
- Istanbul
- Ankara
- Izmir
- Bursa
+---
 
- These insights help identify high-performing business locations.
+## 🔍 Analysis Performed
 
-#📦 Dashboard Features
+### 1. Revenue by Product Category
+Electronics dominates as the top-performing category with **₺2.3M** in revenue, followed by Home & Garden at **₺0.9M** and Sports at **₺0.8M**.
 
- The dashboard includes:
- KPI Cards
- Revenue Trend Line Chart
- Product Category Bar Chart
- Gender Distribution Donut Chart
- Customer Age Group Analysis
- New vs Returning Customers Analysis
- Discount Impact Visualization
- Top Cities by Revenue
+### 2. Revenue Trend Over Time
+Monthly revenue analysis revealed a peak in **January–February** (~₺0.68M) followed by a dip through mid-year, recovering toward **December** (~₺0.38M). Overall, revenue grew **23.6%** compared to the previous year.
 
-#💡 Business Impact
- 📈 Improve sales performance tracking
- 🎯 Enable better customer targeting
- 🛍️ Identify top-performing product categories
- 🌍 Support region and city-level business decisions
- 💰 Optimize discount and pricing strategies
- 👥 Improve customer retention strategies
+### 3. Customer Demographics
+- **Age Group:** The **26–35** segment is the largest customer group (1.5K), closely followed by 36–45.
+- **Gender Split:** Nearly equal — Female (49.84%), Male (48.7%), Other (1.46%).
 
-#🖼️ Dashboard Preview
- The dashboard provides an interactive and visually appealing interface for analyzing:
- Revenue trends
- Customer behavior
- Product performance
- City-wise sales insights
- Business KPIs
+### 4. Average Spending by Age Group
+Spending patterns vary across age groups. Senior customers tend to have higher average order values, while younger adults (18–25) spend comparatively less per order.
 
-#✅ Conclusion
- This project demonstrates how MySQL and Power BI can be combined to analyze e-commerce sales data and generate actionable business insights.
- The dashboard helps businesses:
- Monitor sales growth
- Understand customer behavior
- Improve decision-making
- Optimize product and marketing strategies
+### 5. New vs. Returning Customers
+- **Returning Customers** contribute **59.97%** (~₺2.95M) of total revenue — indicating strong customer loyalty.
+- **New Customers** account for **40.03%** (~₺1.97M).
 
- It showcases practical skills in:
- SQL analysis
- Data cleaning
- Dashboard design
- Business intelligence and visualization 
- ⭐ Support This Project
+### 6. Top Cities by Revenue
+| Rank | City | Revenue |
+|------|------|---------|
+| 1 | Istanbul | 1,284 |
+| 2 | Ankara | 735 |
+| 3 | Izmir | 600 |
+| 4 | Bursa | 496 |
+| 5 | Adana | 378 |
 
-  If you found this project useful, consider giving it a Star ⭐ on GitHub.
+### 7. Payment Method & Device Type
+Revenue is analyzed across payment methods and device types to understand customer purchasing behavior and preferred shopping channels.
+
+### 8. Discount Impact Analysis
+| Order Type | Avg. Order Value |
+|------------|-----------------|
+| No Discount | 984 |
+| With Discount | 981 |
+
+Discounted and non-discounted orders show nearly equal average order values, suggesting discounts drive volume without significantly eroding per-order spend.
+
+---
+
+## 💡 Key Insights
+
+- 📈 **Revenue grew 23.6%** year-over-year, demonstrating strong business growth.
+- 🖥️ **Electronics** is the top-performing category, contributing the most to total revenue.
+- 🔁 **Returning customers** contribute ~60% of total revenue, highlighting high customer loyalty.
+- 👥 **26–35 age group** is the largest customer segment.
+- 🏙️ **Istanbul** leads all cities in revenue contribution.
+
+---
+
+## 📂 Repository Structure
+
+```
+📦 ecommerce-sales-analysis
+ ┣ 📄 ecommerce_customer_behavior_dataset.csv   # Raw dataset from Kaggle
+ ┣ 📄 EcommerceSales_Analysis.sql               # SQL queries for analysis
+ ┣ 🖼️ E-Commerce_sales_Dashboard.png            # Dashboard screenshot
+ ┗ 📄 README.md                                 # Project documentation
+```
+
+---
+
+## 🙏 Acknowledgements
+
+- Dataset sourced from [Kaggle](https://www.kaggle.com/) — thanks to the dataset creator for making this publicly available.
+
+---
+
+## 📬 Contact
+
+Feel free to connect or raise an issue if you have questions or suggestions!
+
+---
+
+*⭐ If you found this project helpful, please consider giving it a star!*
